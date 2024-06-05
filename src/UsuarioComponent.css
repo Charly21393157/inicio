@@ -1,0 +1,93 @@
+.usuario-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .usuario-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .usuario-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .usuario-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .usuario-form input[type="text"],
+  .usuario-form input[type="password"],
+  .usuario-form input[type="number"],
+  .usuario-form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s;
+  }
+  
+  .usuario-form input[type="text"]:focus,
+  .usuario-form input[type="password"]:focus,
+  .usuario-form input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .usuario-form button {
+    margin-top: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .usuario-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .usuario-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .usuario-table th,
+  .usuario-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .usuario-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .usuario-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .usuario-row:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .usuario-row button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .usuario-row button:hover {
+    background-color: #c82333;
+  }
+  
